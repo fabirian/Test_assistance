@@ -37,8 +37,8 @@ The project requires the following Python packages:
 1. Clone the repository:
 
    ```sh
-   git clone <repository-url>
-   cd <repository-directory>
+   git git@github.com:juandiegou/assistance.git 
+   cd assistance
    ```
 
 2. Install the required packages:
@@ -60,5 +60,5 @@ The project requires the following Python packages:
 Run the application:
 
 ```sh
-python [app.py](http://_vscodecontentref_/0)
+python [app.py] app.py
 ```
