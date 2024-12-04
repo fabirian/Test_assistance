@@ -37,7 +37,7 @@ The project requires the following Python packages:
 1. Clone the repository:
 
    ```sh
-   git git@github.com:juandiegou/assistance.git 
+   git clone git@github.com:juandiegou/assistance.git 
    cd assistance
    ```
 
