@@ -1,0 +1,142 @@
+[
+    {
+        "PRODUCT_ID": 1,
+        "Name": "Apple MacBook Pro",
+        "Description": "16-inch, 16GB RAM, 1TB SSD",
+        "Price": 2399,
+        "Stock_availabiility": 15
+    },
+    {
+        "PRODUCT_ID": 2,
+        "Name": "Samsung Galaxy S21",
+        "Description": "6.2-inch, 8GB RAM, 128GB Storage",
+        "Price": 799,
+        "Stock_availabiility": 30
+    },
+    {
+        "PRODUCT_ID": 3,
+        "Name": "Sony WH-1000XM4",
+        "Description": "Wireless Noise-Canceling Over-Ear Headphones",
+        "Price": 349,
+        "Stock_availabiility": 50
+    },
+    {
+        "PRODUCT_ID": 4,
+        "Name": "Dell XPS 13",
+        "Description": "13.3-inch, 16GB RAM, 512GB SSD",
+        "Price": 1299,
+        "Stock_availabiility": 20
+    },
+    {
+        "PRODUCT_ID": 5,
+        "Name": "Apple iPhone 13",
+        "Description": "6.1-inch, 128GB Storage",
+        "Price": 999,
+        "Stock_availabiility": 25
+    },
+    {
+        "PRODUCT_ID": 6,
+        "Name": "Bose QuietComfort 35 II",
+        "Description": "Wireless Bluetooth Headphones, Noise-Cancelling",
+        "Price": 299,
+        "Stock_availabiility": 40
+    },
+    {
+        "PRODUCT_ID": 7,
+        "Name": "Microsoft Surface Pro 7",
+        "Description": "12.3-inch, 8GB RAM, 256GB SSD",
+        "Price": 899,
+        "Stock_availabiility": 10
+    },
+    {
+        "PRODUCT_ID": 8,
+        "Name": "Google Pixel 6",
+        "Description": "6.4-inch, 8GB RAM, 128GB Storage",
+        "Price": 699,
+        "Stock_availabiility": 35
+    },
+    {
+        "PRODUCT_ID": 9,
+        "Name": "Amazon Echo Dot (4th Gen)",
+        "Description": "Smart speaker with Alexa",
+        "Price": 49,
+        "Stock_availabiility": 100
+    },
+    {
+        "PRODUCT_ID": 10,
+        "Name": "Fitbit Charge 5",
+        "Description": "Advanced Fitness & Health Tracker",
+        "Price": 179,
+        "Stock_availabiility": 60
+    },
+    {
+        "PRODUCT_ID": 11,
+        "Name": "HP Spectre x360",
+        "Description": "13.3-inch, 16GB RAM, 1TB SSD",
+        "Price": 1599,
+        "Stock_availabiility": 12
+    },
+    {
+        "PRODUCT_ID": 12,
+        "Name": "OnePlus 9 Pro",
+        "Description": "6.7-inch, 12GB RAM, 256GB Storage",
+        "Price": 969,
+        "Stock_availabiility": 22
+    },
+    {
+        "PRODUCT_ID": 13,
+        "Name": "JBL Flip 5",
+        "Description": "Portable Waterproof Bluetooth Speaker",
+        "Price": 119,
+        "Stock_availabiility": 45
+    },
+    {
+        "PRODUCT_ID": 14,
+        "Name": "Canon EOS R5",
+        "Description": "Full-Frame Mirrorless Camera, 45MP",
+        "Price": 3899,
+        "Stock_availabiility": 8
+    },
+    {
+        "PRODUCT_ID": 15,
+        "Name": "Nintendo Switch",
+        "Description": "Hybrid Game Console",
+        "Price": 299,
+        "Stock_availabiility": 50
+    },
+    {
+        "PRODUCT_ID": 16,
+        "Name": "Sony PlayStation 5",
+        "Description": "Next-Gen Gaming Console",
+        "Price": 499,
+        "Stock_availabiility": 20
+    },
+    {
+        "PRODUCT_ID": 17,
+        "Name": "Samsung QLED TV",
+        "Description": "65-inch, 4K UHD Smart TV",
+        "Price": 1499,
+        "Stock_availabiility": 15
+    },
+    {
+        "PRODUCT_ID": 18,
+        "Name": "Dyson V11 Vacuum",
+        "Description": "Cordless Vacuum Cleaner",
+        "Price": 599,
+        "Stock_availabiility": 25
+    },
+    {
+        "PRODUCT_ID": 19,
+        "Name": "GoPro HERO9",
+        "Description": "Action Camera, 5K Video",
+        "Price": 399,
+        "Stock_availabiility": 30
+    },
+    {
+        "PRODUCT_ID": 20,
+        "Name": "Apple AirPods Pro",
+        "Description": "Wireless Earbuds with Active Noise Cancellation",
+        "Price": 249,
+        "Stock_availabiility": 50
+    }
+]
