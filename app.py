@@ -179,25 +179,26 @@ assistant = client.beta.assistants.create(
 )
 
 
-with client.beta.threads.runs.stream(
-    thread_id= thread.id,
-    assistant_id=assistant.id,
-    instructions="Help the user find the right product to buy",
-    event_handler=EventHandler(),
-) as stream:
-  stream.until_done()
-
-
-while True:
-    user_input = input("\nuser > ")
-    if user_input.strip().upper() == "END":
-        print("Chat is finished.")
-        break
-    response =client.beta.threads.messages.create(thread.id, role="user", content=user_input)
+if __name__ == "__main__":
     with client.beta.threads.runs.stream(
         thread_id= thread.id,
         assistant_id=assistant.id,
+        instructions="Help the user find the right product to buy",
         event_handler=EventHandler(),
-        additional_instructions="You should help the user find the right product to buy and provide the information requested, you couldnt talk for another topics .",
-    ) as stream:
+        ) as stream:
         stream.until_done()
+
+
+    while True:
+        user_input = input("\nuser > ")
+        if user_input.strip().upper() == "END":
+            print("Chat is finished.")
+            break
+        response =client.beta.threads.messages.create(thread.id, role="user", content=user_input)
+        with client.beta.threads.runs.stream(
+            thread_id= thread.id,
+            assistant_id=assistant.id,
+            event_handler=EventHandler(),
+            additional_instructions="You should help the user find the right product to buy and provide the information requested, you couldnt talk for another topics .",
+        ) as stream:
+            stream.until_done()
