@@ -62,7 +62,13 @@ Run the application:
 ```sh
 python [app.py] app.py
 ```
-# Test_assistance
-# Test_assistance
-# Test_assistance
-# Test_assistance
+# Test_assistance  
+
+## Running Tests  
+
+To execute the automated tests, use the following command:  
+
+```sh
+pytest --log-cli-level=INFO test.py
+
+
